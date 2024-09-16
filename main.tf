@@ -1,4 +1,4 @@
-resource "google_storage_bucket" "rkp-bucket" {
+resource "google_storage_bucket" "my-bucket" {
   name          = "rkp-githubdemo-bucket"
   location      = "US"
   force_destroy = true
